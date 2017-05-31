@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+ <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+ <style>
+ #jumbotron{
+   height:60,
+   background-color:red
+ }
+
+ </style>
+
+</head>
+<body>
+
+  <ul id="slide-out" class="side-nav" style="background-color:black">
+    <li><a class="waves-effect waves-light btn pulse">Who We Are</a> <divider /></li>
+    <li><a class="waves-effect waves-light btn">About FICTION.</a> <divider/></li>
+    <li><a class="waves-effect waves-light btn pulse">Why CrowdFunding?</a> <divider /></li>
+    <li><a class="waves-effect waves-light btn">The Team</a> <divider /></li>
+    <li><a class="waves-effect waves-light btn pulse">The Budget Breakdown</a></li>
+    <li><a class="waves-effect waves-light btn pulse">The Timeline</a></li>
+    <li><a class="waves-effect waves-light btn pulse">The Plot</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">add</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+  <!-- Page Layout here -->
+
+   <div class="row">
+
+     <div class="col s11 offset-s1">
+       <!-- Teal page content  -->
+       <div class="container">
+        <header id="jumbotron" class="row" >
+            <h2> FICTION </h2>
+
+        </header>
+        <div id="whois" class="row">
+          Lorem ipsum dolor sit amet, in velit suspendisse vitae tincidunt, officia consequat, ultrices pharetra neque mi consectetuer, vehicula lacus wisi. Adipiscing ridiculus nonummy lorem officia. Dui morbi, tellus orci lectus ac eget, vestibulum purus egestas sed metus, dis posuere velit turpis et risus malesuada. Non lacus fusce nunc, sequi enim, urna integer. Rutrum vitae turpis nunc in elit, consectetuer adipiscing vestibulum natoque. In commodo sit aliquet non aliquet, erat amet in. Sapien ultrices nunc, sit interdum pellentesque nullam, expedita ipsum congue. Vitae malesuada placerat elit, lorem sed non pellentesque, vestibulum hendrerit molestie nulla quis velit justo, tincidunt sem pede eget dolor culpa. Et nunc. Orci ut interdum lorem sagittis at sed, sit volutpat sollicitudin suspendisse sodales.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        $('.button-collapse').sideNav({
+        menuWidth: 200, // Default is 300
+        edge: 'left', // Choose the horizontal origin
+        closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        draggable: true // Choose whether you can drag to open on touch screens
+      });
+      </script>
+
+
+</body>
+</html>
